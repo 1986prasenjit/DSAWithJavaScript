@@ -1,0 +1,359 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 4,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 6,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 5,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 2,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 2,
+			"com.tldraw.shape.geo": 9,
+			"com.tldraw.shape.note": 8,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 0,
+			"com.tldraw.shape.arrow": 5,
+			"com.tldraw.shape.highlight": 1,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 4,
+			"com.tldraw.shape.video": 2,
+			"com.tldraw.binding.arrow": 0
+		}
+	},
+	"records": [
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"x": -26.005859375,
+			"y": -242.34026537707086,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:QcN6XI0FA34801Ykwgajc",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 396.6640625,
+				"text": "Euclid's Algorithm to solve GCD \n\nSay, we divide 33 with 5\n\n5 / 33 -->",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 118.16079711914062,
+			"y": -120.04860888293024,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:DSKaaYaSLE4-M6bFOAB0e",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 762.8359375,
+				"text": "we can write like this 5 x 6 + 3 = 33.\n\nIf we say we divide a with b , such that q is the quotient & r\nis the remainder. \na/b ---> a = b * q + r.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a29Oz",
+			"typeName": "shape"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": 621.9345626241887,
+			"y": 2272.517388375174,
+			"lastActivityTimestamp": 1744003832292,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:color": "red"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1281.6666259765625,
+				"h": 693.3333129882812
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1.2000000476837158,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": "shape:uyRyMocGs3SUbOizWxBNM",
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:uyRyMocGs3SUbOizWxBNM"
+			],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 112.0654373758113,
+			"y": -1690.5173883751743,
+			"z": 1,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": -47.55012512207031,
+			"y": 279.4663504523969,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:jYuLpVTP4Qb9Mnaya7W8y",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 562.4192504882812,
+				"text": "\n\n\nCalculate the sum of the Digits ---> 4136\nIf we need the sum of digits of the number, \nwe first of all need to extract the digits out \nof the number",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a34PW",
+			"typeName": "shape"
+		},
+		{
+			"x": 310.2814283447443,
+			"y": 154.34132765739866,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:N8cVlqurFTe733flMYUen",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 188.76627731323242,
+				"text": "",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 2.00924441260411
+			},
+			"parentId": "page:page",
+			"index": "a488l",
+			"typeName": "shape"
+		},
+		{
+			"x": -10.242166519165039,
+			"y": 532.4998657402074,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:smCfgBJX4jhrx4O5j74h3",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 421.24737548828125,
+				"text": "function calSumOfDigits(num) {\n  let countResult = 0;\n  while (num > 0) {\n    let lastDigit = num % 10;\n    countResult += lastDigit;\n    num = Math.floor(num / 10);\n  }\n  return countResult;\n}\n\nconsole.log(calSumOfDigits(4136));",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a5823",
+			"typeName": "shape"
+		},
+		{
+			"x": -8.282526016235352,
+			"y": 894.2626136245308,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:0NvzOmnAv69gtIBB6ZQrq",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 741.2864379882812,
+				"text": "Dry Run for this problem\n1st iteration :- we initialised a variable countResult with 0;\nnum = 4136 greater than 0 ---> Yes, goes inside the Loop.\nintialised another variable lastDigit = num % 10 means \n4136 % 10 = 6. the value of lastDigit is 6\ncountResult = countResult + lastDigit ---> 0 + 6 = 0. \ncountResult = 6.\nnum = Math.floor(num / 10) ---> 4136 / 10 = 413.6 and \nMath.floor(413.6) will give 413, so num will be now 413.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a679f",
+			"typeName": "shape"
+		},
+		{
+			"x": -15.079765378740973,
+			"y": 1178.1666329908198,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:b5tcznWOHdC2XFD6jvJnn",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 709.0078125,
+				"text": "\n2nd iteration :-  countResult value is  6;\nnum = 413 greater than 0 ---> Yes, goes inside the Loop.\nintialised another variable lastDigit = num % 10 means \n413 % 10 = 3. the value of lastDigit is 3\ncountResult = countResult + lastDigit ---> 6 + 3 = 9. \ncountResult = 9.\nnum = Math.floor(num / 10) ---> 413 / 10 = 41.3 and \nMath.floor(41.3) will give 41, so num will be now 41.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a77QX",
+			"typeName": "shape"
+		},
+		{
+			"x": -14.373390256670632,
+			"y": 1414.5519264691527,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:gYq0GGYNC6E_41ZqB98ej",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 698.0442504882812,
+				"text": "\n\n3rd iteration :-  countResult value is  9;\nnum = 41 greater than 0 ---> Yes, goes inside the Loop.\nintialised another variable lastDigit = num % 10 means \n41 % 10 = 1. the value of lastDigit is 1\ncountResult = countResult + lastDigit ---> 9 + 1 = 10. \ncountResult = 10.\nnum = Math.floor(num / 10) ---> 41 / 10 = 4.1 and \nMath.floor(4.1) will give 4, so num will be now 4.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a839y",
+			"typeName": "shape"
+		},
+		{
+			"x": 74.05434411832933,
+			"y": 1761.2060590616766,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:RnYInU8GGcR2GfvFDqYwh",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 16,
+				"text": "",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aB0vr",
+			"typeName": "shape"
+		},
+		{
+			"x": -15.867523252276143,
+			"y": 1765.9326215616766,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:uyRyMocGs3SUbOizWxBNM",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 721.5338134765625,
+				"text": "4th iteration :-  countResult value is  10;\nnum = 4 greater than 0 ---> Yes, goes inside the Loop.\nintialised another variable lastDigit = num % 10 means \n4 % 10 = 4. the value of lastDigit is 4\ncountResult = countResult + lastDigit ---> 10 + 4  = 14. \ncountResult = 14.\nnum = Math.floor(num / 10) ---> 4 / 10 = 0.4  and \nMath.floor(0.4) will give 0, so num will be now 0.\n\nDoesnot satisfy the comes out of the Loop and returns 14.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aC0us",
+			"typeName": "shape"
+		}
+	]
+}
