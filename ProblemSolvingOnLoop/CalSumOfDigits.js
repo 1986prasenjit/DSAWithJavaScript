@@ -1,15 +1,18 @@
 /*
-    !Given a number x, Calculate the sum of digits of the no x. Exam--->4136 ---> (4 + 1 + 3 + 6) ---> 14
+    Write a function which will calculate the sum of the arr given in the arr array and return the result 
 */
 
-function calSumOfDigits(num) {
-  let countResult = 0;
-  while (num > 0) {
+function calculateTheSum(num){
+  let newNum = 0;
+   while(num > 0){
     let lastDigit = num % 10;
-    countResult += lastDigit;
-    num = Math.floor(num / 10);
-  }
-  return countResult;
+    newNum += lastDigit;
+    num = Math.floor(num / 10); 
+   }
+   return newNum;
 }
 
-console.log(calSumOfDigits(4136));
+let result = calculateTheSum(123456);
+console.log(result);
+
+

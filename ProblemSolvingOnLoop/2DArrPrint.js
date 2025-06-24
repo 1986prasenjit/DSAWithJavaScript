@@ -2,20 +2,21 @@ console.log("Connected");
 
 /*
     Write a JS code to print a 2D array
-    Function `printArray()` prints all the elements of a 2D array using nested for loops.
-    Example 1 = let arr = [[1, 2],[3, 4],[5, 6]]; //[1,2,3,4,5,6] //1,2,3,4,5,6
+    Function `printArray()` prints all the elements of a 2D array using nested for loops and return all the element in a new Array.
+    Example 1 = let arr = [[1, 2],[3, 4],[5, 6]];
 */
 
-function printArray(arr) {
-  for (let row = 0; row < arr.length; row++) {
-    //console.log(arr[row]);
-    for (let col = 0; col < arr[row].length; col++) {
-      console.log(arr[row][col]);
+function printAllElems(arr){
+  let newArr = [];
+  for(let i = 0; i < arr.length; i++){
+    for(let j = 0; j < arr.length - 1; j++){
+      newArr.push(arr[i][j]);
     }
   }
+  return newArr
 }
-printArray([
-  [1, 2],
-  [3, 4],
-  [5, 6],
-]);
+let arr = [[1, 2],[3, 4],[5, 6]];
+
+let result = printAllElems(arr);
+
+console.log(result);
