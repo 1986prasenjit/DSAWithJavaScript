@@ -1,0 +1,3 @@
+/*
+    Write a Javascript program to find the duplicates values in a given arrays
+*/
