@@ -12,6 +12,7 @@ function findTheMax(arr) {
   let maxNum = [0][0];
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < arr.length; j++) {
+      console.log(arr[i][j]);
       if (arr[i][j] >= maxNum) {
         maxNum = arr[i][j];
       }
@@ -19,12 +20,12 @@ function findTheMax(arr) {
   }
   return maxNum;
 }
-// let result = findTheMax([
-//   [1, 2, 3],
-//   [4, 5, 6],
-//   [7, 8, 9],
-// ]);
-// console.log(result);
+let result = findTheMax([
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+]);
+console.log(result);
 
 /*
     ?There are few problems with the above code is that :- 
@@ -34,7 +35,7 @@ function findTheMax(arr) {
     *2nd --> for (let j = 0; j < arr.length; j++) --> This line starts the inner loop, iterating through each element within the current row. arr[i].length would have been better here to get the number of columns in the current row. While the above solution might work if all rows have the same length, it's not robust.
 */
 //! 2nd optimised approach
-
+/*
 function findTheMax(arr) {
   if (arr.length === 0) {
     throw new Error("Array is empty");
@@ -56,7 +57,7 @@ let result = findTheMax([
   [7, 8, 9, 10],
 ]);
 console.log(result);
-
+*/
 /*
     !DRY RUN OF THE ABOVE CODE 
 

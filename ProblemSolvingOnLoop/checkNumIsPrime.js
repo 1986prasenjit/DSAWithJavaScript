@@ -24,5 +24,4 @@ function isPrime(num){
         }
     }
 }
-let result = isPrime(100);
-console.log(result);
+console.log(isPrime(15));

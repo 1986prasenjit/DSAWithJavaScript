@@ -15,32 +15,42 @@ Output: 0
 Explanation: In this case, no transactions are done and the max profit = 0.
 */
 
+//Brute force solution by using two loops
+
 function maxProfit(prices){
-    let highestProfit = 0;
+    let maxProfit = 0;
     for(let i = 0; i < prices.length; i++){
-        if(prices[i + 1] - prices[i] > highestProfit){
-            highestProfit = prices[i + 1] - prices[i]
+        for(let j = 1; j < prices.length; j++){
+            if((prices[j] - prices[i]) > maxProfit){
+                maxProfit = prices[j] - prices[i]
+            }
         }
     }
-    return highestProfit;
+    return maxProfit;
 }
-let price = [7,1,5,3,6,4]
-let result = maxProfit(price);
+
+
+
+/* 
+function maxProfit(prices){
+
+    let minValue = prices[0];
+    let maxProfitValue = 0;
+
+    for(let i = 1; i < prices.length; i++){
+        if((prices[i] - minValue) > maxProfitValue){
+            maxProfitValue = prices[i] - minValue;
+        }
+        if(prices[i] < minValue){
+            minValue = prices[i];
+        }
+    }
+    return maxProfitValue;
+}
+*/
+let prices = [7,1,5,3,6,4]
+let result = maxProfit(prices);
 console.log(result);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
 Constraints
