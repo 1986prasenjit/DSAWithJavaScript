@@ -16,7 +16,7 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 */
 
 //Brute force solution by using two loops
-
+/*
 function maxProfit(prices){
     let maxProfit = 0;
     for(let i = 0; i < prices.length; i++){
@@ -28,10 +28,10 @@ function maxProfit(prices){
     }
     return maxProfit;
 }
+*/
 
 
 
-/* 
 function maxProfit(prices){
 
     let minValue = prices[0];
@@ -47,7 +47,7 @@ function maxProfit(prices){
     }
     return maxProfitValue;
 }
-*/
+
 let prices = [7,1,5,3,6,4]
 let result = maxProfit(prices);
 console.log(result);
