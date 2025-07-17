@@ -1,5 +1,5 @@
 function binarySeach_recur(arr, target, left = 0, right = arr.length - 1) {
-
+    console.log(arr.length - 1);
     if (left > right) { return -1 };
 
     let mid = left + Math.floor((right - left) / 2);
